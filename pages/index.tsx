@@ -2,6 +2,7 @@ import About from "@/components/About";
 import Hero from "@/components/Hero";
 import MobileNav from "@/components/MobileNav";
 import Navbar from "@/components/Navbar";
+import Services from "@/components/Services";
 import { useState } from "react";
 
 
@@ -21,6 +22,7 @@ const closeNav = ()=>setNav(false)
         <Hero/>
         <div className="relative z-[125555555555555555555555]">
        <About/>
+       <Services/>
         </div>
       </div>
 
