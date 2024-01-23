@@ -1,0 +1,18 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@700&family=Figtree:ital@1&family=Neucha&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .nav_link{
+        @apply relative  text-white cursor-pointer text-[17px] w-fit md:block after:block after:content-[''] after:absolute after:h-[3px] after:bg-yellow-400 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center hidden
+    }
+    .nav_link-mobile {
+        
+        @apply relative mb-[2rem] text-white cursor-pointer text-[27px] w-fit md:block after:block after:content-[''] after:absolute after:h-[3px] after:bg-yellow-400 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center
+
+    }
+}
