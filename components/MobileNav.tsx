@@ -26,7 +26,7 @@ const MobileNav = ({nav,closeNav}:Props) => {
       </div>
       <div 
       onClick={closeNav}
-      className="absolute cursor-pointer top-[5rem] right-[20rem] h-[10rem]  text-yellow-400">
+      className="absolute cursor-pointer top-[5rem] right-[20rem] h-[10rem]  text-yellow-400 z-[12000]">
        
         x
       </div>
