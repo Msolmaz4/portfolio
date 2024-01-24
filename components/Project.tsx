@@ -4,8 +4,8 @@ const Project = () => {
   return (
     <div className="bg-[#02050a] pt-[4rem] md:pt-[8rem] pb-[1rem]">
       <h1 className="text-center text-white text-[28px] sm:text-[33px] md:text-[45px] font-bold uppercase">
-        {" "}
-        Pro<span className="text-yellow-400">Ject</span>{" "}
+        
+        Pro<span className="text-yellow-400">Ject</span>
       </h1>
       <div className="w-[80%] pt-[2rem] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[2rem]">
         <div>
