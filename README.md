@@ -5,6 +5,7 @@ sonra githubtan tyscript doc kopyaladim
 npm i react-tsparticles tsparticles-slim tsparticles-engine somn olarak buna
 npm i react-multi-carousel
 npm i react-floating-whatsapp
+npm install react-scroll react router kurmak zerine bunuda kullanik tek sayfa icin
 
 ## Deploy on Vercel
 
