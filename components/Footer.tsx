@@ -1,4 +1,5 @@
 import { DevicePhoneMobileIcon, EnvelopeIcon, MapIcon } from "@heroicons/react/16/solid"
+import Email from "./Email"
 
 
 const Footer = () => {
@@ -10,25 +11,33 @@ const Footer = () => {
         <MapIcon className="md:w-[4rem] md:h-[4rem] w-[3.5rem] h-[3.5rem] text-black "/>
         </div>
        <div>
-        <h1 className="text-[25px] mb-[0.2rem] text-[white]">Address</h1>
-        <p className="text-[17px] w-[90%] text-white opacity-60">Berlin Deutschland </p>
+        <h1 className="text-[25px] mb-[0.2rem] text-[white] pl-7">Address</h1>
+        <p className="text-[17px] w-[100%] text-white opacity-60">Berlin Deutschland </p>
       </div></div>
-      <div className="flex items-center space-x-6">
-         <div className="md:w-[6.5rem] md:h-[6.5rem] w-[5rem] h-[5rem] flex items-center justify-center rounded-full bg-[#55e6a5]">
+      <div className="flex items-center  space-x-6">
+         <div className="md:w-[6.5rem] md:h-[6.5rem] w-[5rem] h-[5rem] flex items-center justify-center rounded-full bg-[#55e6a5] ">
         <DevicePhoneMobileIcon className="md:w-[4rem] md:h-[4rem] w-[3.5rem] h-[3.5rem] text-black "/>
         </div>
-       <div>
-        <h1 className="text-[25px] mb-[0.2rem] text-[white]">Phone</h1>
+
+       <div className="flex-col flex ">
+
+        <h1 className="text-[25px] mb-[0.2rem] text-[white] pl-12">Phone</h1> 
+         
+           
+     
         <a href="tel:+17632798189">
         <p className="text-[17px] w-[100%] text-white opacity-60">+176 49 32798189</p></a>
-      </div></div>
+      </div>
+      
+      </div>
       <div className="flex items-center space-x-6">
          <div className="md:w-[6.5rem] md:h-[6.5rem] w-[5rem] h-[5rem] flex items-center justify-center rounded-full bg-[#55e6a5]">
         <EnvelopeIcon className="md:w-[4rem] md:h-[4rem] w-[3.5rem] h-[3.5rem] text-black "/>
         </div>
        <div>
-        <h1 className="text-[25px] mb-[0.2rem] text-[white]">Email</h1>
-        <p className="text-[17px] w-[90%] text-white opacity-60"> msolmaz83@gmail.com</p>
+        <button>
+        <Email/>
+</button>
       </div></div>
 
 
