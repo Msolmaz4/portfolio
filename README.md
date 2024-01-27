@@ -6,6 +6,8 @@ npm i react-tsparticles tsparticles-slim tsparticles-engine somn olarak buna
 npm i react-multi-carousel
 npm i react-floating-whatsapp
 npm install react-scroll react router kurmak zerine bunuda kullanik tek sayfa icin
+npm i emailjs sonra kendi saydasina git https://www.emailjs.com/docs/
+npm i @emailjs/browser
 
 ## Deploy on Vercel
 

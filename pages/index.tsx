@@ -8,6 +8,7 @@ import Project from "@/components/Project";
 import Services from "@/components/Services";
 import Skils from "@/components/Skils";
 import Testi from "@/components/Testi";
+import { ToastContainer } from 'react-toastify';
 
 import { useState } from "react";
 
@@ -51,6 +52,8 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      <ToastContainer />
     </div>
   );
 }
