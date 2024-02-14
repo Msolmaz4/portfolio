@@ -11,6 +11,7 @@ import Testi from "@/components/Testi";
 import { ToastContainer } from 'react-toastify';
 
 import { useState } from "react";
+import Scrol from "@/components/Scrol";
 
 export default function Home() {
   const [nav, setNav] = useState(false);
@@ -26,6 +27,7 @@ export default function Home() {
           <Navbar openNav={openNav} />
 
           <Hero />
+          <Scrol/>
         </div>
 
         <div className="relative z-[125]">

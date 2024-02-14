@@ -21,20 +21,21 @@ const Hero = () => {
           </p>
           <div className="mt-[2rem] flex-col space-y-6 sm:space-y-0 sm:flex sm:flex-row items-center sm:space-x-6">
             <a href="/data/20.pdf" download="20.pdf">
-            <button className="px-[2rem] hover:bg-yellow-400 transition-all duration-200 py-[1rem] text-[18px] font-bold uppercase bg-[#55e6a5] text-black flex items-center space-x-2">
-              <p>Dowland Cv </p>
-              
-              <ArrowDownTrayIcon className="w-[1.6rem] h-[1.7rem] text-black" />
-            </button></a>
+              <button className="px-[2rem] hover:bg-yellow-400 transition-all duration-200 py-[1rem] text-[18px] font-bold uppercase bg-[#55e6a5] text-black flex items-center space-x-2">
+                <p>Dowland Cv </p>
+
+                <ArrowDownTrayIcon className="w-[1.6rem] h-[1.7rem] text-black" />
+              </button>
+            </a>
             <button className="flex items-center space-x-2 hover:text-yellow-400 transition-all duration-200 text-[#55e6a5]">
               <PlayCircleIcon className="w-[4rem] h-[4rem]" />
               <p className="text-[20px] text-white">Watch The Video</p>
             </button>
           </div>
         </div>
-        <div className="w-[500px] hidden bg-[#55e6a5] relative lg:flex items-center rounded-full h-[590px] ">
+        <div className="w-[500px] hidden bg-white relative lg:flex items-center rounded-full h-[590px] ">
           <Image
-            src=""
+            src="/images/potre.png"
             alt="user"
             layout="fill"
             className="object-cover rounded-full"

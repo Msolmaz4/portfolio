@@ -16,3 +16,6 @@
 
     }
 }
+ .scroll {
+    @apply border-2 w-[60px] h-[150px]  bg-red-500 fixed z-[160] -mt-[260px] mr-4 rounded-lg flex flex-col justify-items-center items-center
+}
