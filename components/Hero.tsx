@@ -15,9 +15,7 @@ const Hero = () => {
             <TextEffect />
           </h1>
           <p className="mt-[1.5rem] text-[20px] text-[#ffffff92]">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus
-            itaque, unde quisquam quod veniam, ipsam rem temporibus maxime
-            delectus dolorum nemo ut iusto?
+          I am a full-stack web developer with expertise in HTML, CSS, SASS, JavaScript, React, TypeScript, Node.js and MongoDB. I have projects on creating both front-end and back-end dynamic and responsive user interfaces, as well as databases using SQL and NoSQL. I am good at implementing intuitive user logic based on end-to-end solutions. I maintain a holistic approach to web development, staying up to date on emerging technologies and adapting to project requirements.
           </p>
           <div className="mt-[2rem] flex-col space-y-6 sm:space-y-0 sm:flex sm:flex-row items-center sm:space-x-6">
             <a href="/data/20.pdf" download="20.pdf">

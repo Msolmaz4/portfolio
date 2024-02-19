@@ -34,8 +34,7 @@ const EmailModal = ({ setOpen }) => {
    //const serviceId = import.meta.env.VITE_YOUR_SERVICE_ID;
     emailjs
       .sendForm(
-        'service_cujqktt'
-      ,
+        'service_cujqktt',
         "template_37k83vh",
         form.current,
         "rfmiLie3_I9HQT2zo"

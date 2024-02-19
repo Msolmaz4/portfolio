@@ -40,7 +40,7 @@ const Footer = () => {
         <EnvelopeIcon className="md:w-[4rem] md:h-[4rem] w-[3.5rem] h-[3.5rem] text-black "/>
         </div>
        <div>
-        <button onClick={()=>setOpen(prev=>!prev)}>
+        <button onClick={()=>setOpen((prev) =>!prev)}>
         <Email/></button>
         {
           open ?    

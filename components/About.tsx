@@ -15,10 +15,7 @@ const About = () => {
           <div className="mb-[3rem] flex items-center md:space-x-10">
             <span className="w-[100px] hidden md:block h-[5px] bg-slate-400 rounded-sm"></span>
             <p className="text-[19px] text-slate-300 w-[80%]">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et,
-              recusandae ullam nostrum doloremque repudiandae a harum dicta,
-              sunt, pariatur rerum autem! Culpa, ipsa corporis est, ab officia
-              quas, beatae deleniti eos iusto eaque laboriosam tenetur id?
+            I am a full-stack web developer with a comprehensive skill set covering both front-end and back-end technologies. I am proficient in HTML, CSS,SASS, JavaScript,React,TS - Node.js and MongoDB to create dynamic and responsive user interfaces Database management experience using SQL and NoSQL databases with server-side languages such as I am committed to providing end-to-end solutions, whether it is designing intuitive user experiences or implementing powerful server-side logic. I take a holistic approach to web development with a keen interest in staying up-to-date on emerging technologies. "I like to work for the requirements.
             </p>
           </div>
           <button className="px-[2rem] hover:bg-yellow-400 transition-all duration-200 py-[1rem] text-[18px] font-bold uppercase bg-[#55e6a5] text-black flex items-center space-x-2">
