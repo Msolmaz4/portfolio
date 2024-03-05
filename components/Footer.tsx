@@ -46,7 +46,7 @@ const Footer = () => {
           open ?    
             (
             
-            <div className="absolute bottom-40 right-50 "><EmailModal setOpen= {setOpen}/> </div>
+            <div className="absolute bottom-40 right-50 "><EmailModal setOpen= {setOpen} open={open}/> </div>
             )
            :""
         }

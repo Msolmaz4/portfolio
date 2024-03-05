@@ -4,10 +4,11 @@ import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 interface EmailModalProps {
   setOpen: (value: boolean) => void;
+  open: (value: boolean) => void;
   
  
 }
-const EmailModal: React.FC<EmailModalProps> = ({ setOpen }) => {
+const EmailModal: React.FC<EmailModalProps> = ({ setOpen, open }) => {
  
   const form = useRef<HTMLFormElement | null>(null);
   
@@ -24,37 +25,17 @@ const EmailModal: React.FC<EmailModalProps> = ({ setOpen }) => {
   //  const onChan = (e)=>{
   // setInp({...inp,[e.target.name]:e.target.value})
   //  }
-
-  const derleme = async (e : React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
+  const derleme = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
-    //'YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', inp, 'YOUR_PUBLIC_KEY'  email setviceden gmail altindaki service_cujqktt,emailTep;aktes settingtemplate_37k83vh,account publickeyrfmiLie3_I9HQT2zo
-    // try {
-    // const result=   await emailjs.sendForm('service_cujqktt', 'template_37k83vh', form.current, 'rfmiLie3_I9HQT2zo')
-    // console.log(result)
-
-    // } catch (error) {
-    //    console.log(error);
-    // }
-    // finally {
-    //     setOpen(prev=>!prev)
-    // }
-
-    //FORM YAPISNDA GONDER
-   //const serviceId = import.meta.env.VITE_YOUR_SERVICE_ID;
-
-   
-   const derleme = async (e : React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
-    e.preventDefault();
-  
     if (form.current === null) {
-      console.error('Form is null');
+      console.error("Form is null");
       return;
     }
-  
+
     emailjs
       .sendForm(
-        'service_cujqktt',
+        "service_cujqktt",
         "template_37k83vh",
         form.current,
         "rfmiLie3_I9HQT2zo"
@@ -70,9 +51,13 @@ const EmailModal: React.FC<EmailModalProps> = ({ setOpen }) => {
           console.log(error.text);
         }
       );
-      setOpen(!open);
-
+    setOpen(!open);
   };
+
+  const handleClick = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
+    if (form.current !== null) {
+      form.current.submit();
+    }
   };
 
   return (
@@ -124,7 +109,7 @@ const EmailModal: React.FC<EmailModalProps> = ({ setOpen }) => {
         <span className="col-span-2"></span>
         <button
           className="bg-slate-100 stroke-slate-600 border border-slate-200 col-span-2 flex justify-center rounded-lg p-2 duration-300 hover:border-slate-600 hover:text-white focus:stroke-blue-200 focus:bg-blue-400"
-          onClick={derleme}
+          onClick={handleClick}
         >
           <svg
             fill="none"
