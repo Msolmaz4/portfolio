@@ -2,7 +2,10 @@ import emailjs from "@emailjs/browser";
 import { useRef } from "react";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-const EmailModal = ({ setOpen }) => {
+interface EmailModalProps {
+  setOpen: (value: boolean) => void;
+}
+const EmailModal: React.FC<EmailModalProps> = ({ setOpen }) => {
   const form = useRef();
   // const [inp,setInp] = useState({
   //   user_name:"", ben inp yaptim omadi arastirdim form yapuis istiyor
