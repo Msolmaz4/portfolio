@@ -70,7 +70,8 @@ const EmailModal: React.FC<EmailModalProps> = ({ setOpen }) => {
           console.log(error.text);
         }
       );
-    setOpen((prev:boolean) => !prev);
+      setOpen(!open);
+
   };
   };
 
