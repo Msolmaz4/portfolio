@@ -4,9 +4,16 @@ import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 interface EmailModalProps {
   setOpen: (value: boolean) => void;
+  
+ 
 }
 const EmailModal: React.FC<EmailModalProps> = ({ setOpen }) => {
+ 
   const form = useRef<HTMLFormElement | null>(null);
+  
+  const nameRef = useRef<HTMLTextAreaElement | null>(null);
+  const emailRef = useRef<HTMLTextAreaElement | null>(null);
+  const messageRef = useRef<HTMLTextAreaElement | null>(null);
   // const [inp,setInp] = useState({
   //   user_name:"", ben inp yaptim omadi arastirdim form yapuis istiyor
   //   message:"",
@@ -35,6 +42,16 @@ const EmailModal: React.FC<EmailModalProps> = ({ setOpen }) => {
 
     //FORM YAPISNDA GONDER
    //const serviceId = import.meta.env.VITE_YOUR_SERVICE_ID;
+
+   
+   const derleme = async (e : React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
+    e.preventDefault();
+  
+    if (form.current === null) {
+      console.error('Form is null');
+      return;
+    }
+  
     emailjs
       .sendForm(
         'service_cujqktt',
@@ -54,6 +71,7 @@ const EmailModal: React.FC<EmailModalProps> = ({ setOpen }) => {
         }
       );
     setOpen((prev:boolean) => !prev);
+  };
   };
 
   return (
