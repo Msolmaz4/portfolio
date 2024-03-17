@@ -18,10 +18,11 @@ const About = () => {
             I am a full-stack web developer with a comprehensive skill set covering both front-end and back-end technologies. I am proficient in HTML, CSS,SASS, JavaScript,React,TS - Node.js and MongoDB to create dynamic and responsive user interfaces Database management experience using SQL and NoSQL databases with server-side languages such as I am committed to providing end-to-end solutions, whether it is designing intuitive user experiences or implementing powerful server-side logic. I take a holistic approach to web development with a keen interest in staying up-to-date on emerging technologies. "I like to work for the requirements.
             </p>
           </div>
+          <a href="/data/Muhammet_SOLMAZ.pdf" download="MUhammet_SOLMAZCV.pdf">
           <button className="px-[2rem] hover:bg-yellow-400 transition-all duration-200 py-[1rem] text-[18px] font-bold uppercase bg-[#55e6a5] text-black flex items-center space-x-2">
             <p>Dowland Cv </p>
             <ArrowDownTrayIcon className="w-[1.6rem] h-[1.7rem] text-black" />
-          </button>
+          </button></a>
         </div>
         <div className="lg:w-[500px] mx-auto md:mx-0 mt-[2rem] lg:mt-0 lg:h-[500px] w-[300px] h-[300px] relative ">
           <Image
