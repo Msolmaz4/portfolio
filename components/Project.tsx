@@ -33,14 +33,15 @@ const Project = () => {
           </div></a>
         </div>
         <div>
+        <a href="https://renderfront.vercel.app/" target="_blank" rel="noopener noreferrer">
           <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]">
             <Image
-              src="/images/p2.jpg"
+              src="/images/dashbo.gif"
               alt="user"
               layout="fill"
               className="object-contain"
             />
-          </div>
+          </div></a>
         </div>
         <div>
         <a href="https://master--velvety-hotteok-b5138c.netlify.app/" target="_blank" rel="noopener noreferrer">
