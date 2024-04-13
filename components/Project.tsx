@@ -55,6 +55,7 @@ const Project = () => {
           </div></a>
         </div>
         <div>
+        <a href="https://fire-base-ecommerce.vercel.app/" target="_blank" rel="noopener noreferrer">
           <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]">
             <Image
               src="/images/p5.jpg"
@@ -62,7 +63,7 @@ const Project = () => {
               layout="fill"
               className="object-contain"
             />
-          </div>
+          </div></a>
         </div>
         <div>
           <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]">
