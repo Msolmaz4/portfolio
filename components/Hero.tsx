@@ -31,9 +31,9 @@ const Hero = () => {
             </button>
           </div>
         </div>
-        <div className="w-[500px] hidden bg-white relative lg:flex items-center rounded-full h-[590px] ">
+        <div className="w-[500px] hidden bg-black relative lg:flex items-center rounded-full h-[590px] ">
           <Image
-            src="/images/potre.png"
+            src="/images/sonresim.png"
             alt="user"
             layout="fill"
             className="object-cover rounded-full"
