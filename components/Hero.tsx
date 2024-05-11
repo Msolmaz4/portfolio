@@ -18,7 +18,7 @@ const Hero = () => {
           I am a full-stack web developer with expertise in HTML, CSS, SASS, JavaScript, React, TypeScript, Node.js and MongoDB. I have projects on creating both front-end and back-end dynamic and responsive user interfaces, as well as databases using SQL and NoSQL. I am good at implementing intuitive user logic based on end-to-end solutions. I maintain a holistic approach to web development, staying up to date on emerging technologies and adapting to project requirements.
           </p>
           <div className="mt-[2rem] flex-col space-y-6 sm:space-y-0 sm:flex sm:flex-row items-center sm:space-x-6">
-            <a href="/data/Muhammet_SOLMAZ.pdf" download="MUhammet_SOLMAZCV.pdf">
+            <a href="/data/MUHAMMETDeutsch.pdf" download="MUhammet_SOLMAZCV.pdf">
               <button className="px-[2rem] hover:bg-yellow-400 transition-all duration-200 py-[1rem] text-[18px] font-bold uppercase bg-[#55e6a5] text-black flex items-center space-x-2">
                 <p>Dowland Cv </p>
 
