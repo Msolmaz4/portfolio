@@ -37,9 +37,10 @@ arrows={true}
   infinite
   itemClass="item"
 >
-  <Client image="/images/c1.jpg" name="Sal Taluk" role="Web Developer"/>
-  <Client image="/images/c2.jpg" name="must Sol" role="Backend Developer"/>
-  <Client image="/images/c2.jpg" name="must Sol" role="Backend Developer"/>
+  <Client image="/images/c1.jpg" name="Yavuz Tokus" role="Web Developer" decs=" He has contributed a lot to our work and loves to learn. I would like to thank him for being very compatible with the friendly environment and working with the team."/>
+  <Client image="/images/c2.jpg" name="Dursun Ayhan" role="Software" decs='
+He is very friendly and loves solving problems and has very stimulating ideas. The days I worked with him were very nice and I was impressed by how quickly he adapted to the team.'/>
+
 </Carousel> </div>
   )
 }
