@@ -4,14 +4,10 @@ import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 interface EmailModalProps {
   setOpen: (value: boolean) => void;
-  
-  
- 
 }
 const EmailModal: React.FC<EmailModalProps> = ({ setOpen }) => {
- 
   const form = useRef<HTMLFormElement | null>(null);
-  
+
   const nameRef = useRef<HTMLTextAreaElement | null>(null);
   const emailRef = useRef<HTMLTextAreaElement | null>(null);
   const messageRef = useRef<HTMLTextAreaElement | null>(null);
