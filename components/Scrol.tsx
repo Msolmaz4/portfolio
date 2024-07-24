@@ -10,7 +10,7 @@ const Scrol = () => {
        
         </div><div className="mt-5">
 
-        <a href="https://www.linkedin.com/in/muhammetsolmaz/" target="_blank" rel="noopener noreferrer"> <FaLinkedin size={36} />   </a>
+        <a href="https://www.linkedin.com/in/muhammetso/" target="_blank" rel="noopener noreferrer"> <FaLinkedin size={36} />   </a>
         </div>
      
     </div>
