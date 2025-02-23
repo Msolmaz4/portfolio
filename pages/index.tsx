@@ -8,7 +8,7 @@ import Project from "@/components/Project";
 import Services from "@/components/Services";
 import Skils from "@/components/Skils";
 import Testi from "@/components/Testi";
-import { ToastContainer } from 'react-toastify';
+import { ToastContainer } from "react-toastify";
 
 import { useState } from "react";
 import Scrol from "@/components/Scrol";
@@ -27,7 +27,7 @@ export default function Home() {
           <Navbar openNav={openNav} />
 
           <Hero />
-          <Scrol/>
+          <Scrol />
         </div>
 
         <div className="relative z-[125]">
